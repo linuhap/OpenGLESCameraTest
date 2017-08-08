@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/sample_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="Hello World!"/>
+
+    <FrameLayout
+        android:id="@+id/framelayout"
+        android:layout_weight="1"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        >
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/cameralayout"
+        android:layout_weight="1"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        >
+
+    </FrameLayout>
+
+</LinearLayout>
+
+
